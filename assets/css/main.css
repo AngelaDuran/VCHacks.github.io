@@ -3315,3 +3315,54 @@ input, select, textarea {
 			}
 
 	}
+/*
+.icons {
+	width: 100px;
+	height: 100px;
+	display:  inline-block;
+	line-height: 50px;
+}*/
+/* Feature Icons */
+
+ul.icons {
+	list-style: none;
+	padding-left: 0;
+}
+
+	ul.icons i {
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 0 1.6875em 0;
+		padding: 0.55em 0 0 3.5em;
+		position: relative;
+		vertical-align: top;
+		width: 48%;
+	}
+
+		ul.icons i:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			font-size: 30px;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		ul.icons i:before { /* Background circles*/
+			background: #e0842c;
+			border-radius: 100%;
+			color: #ffffff;
+			display: block;
+			height: 1.5em;
+			left: 0;
+			line-height: 1.5em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 1.5em;
+		}
